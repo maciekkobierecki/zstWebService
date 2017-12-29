@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+<tr>
+<td>Enter Player ID : </td>
+<td><input type="text" id="playerid" size="10"/>
+
+<input type="button" value="Get Details" onclick="getMessage()"/>
+</tr>
+<tr>
+<td>Player Last Name : </td>
+<td> <input type="text" id="lastname" size="10"/> </td>
+</tr>
+
+<tr>
+<td>Player First Name : </td>
+<td> <input type="text" id="firstname" size="10"/> </td>
+</tr>
+
+<tr>
+<td>Player Jersey Number : </td>
+<td> <input type="text" id="jerseynumber" size="10"/> </td>
+</tr>
+
+</table>
+</body>
+</html>

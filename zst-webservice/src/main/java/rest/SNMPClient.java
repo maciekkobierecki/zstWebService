@@ -126,7 +126,7 @@ public class SNMPClient implements Serializable {
 		ObjectMapper objectMapper=new ObjectMapper();
 		Vector<VariableBinding> varBinds=(Vector<VariableBinding>) pdu.getVariableBindings();
 		Map<OID, String> vars= varBinds.stream().collect(Collectors.toMap(VariableBinding::getOid, VariableBinding::toValueString));
-		String converted=objectMapper.writeValueAsString(vars);
+		String converted=objectMapper.writeValueAsString(varBinds);
 		return converted;
 	}
 	

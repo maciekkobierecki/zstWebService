@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script language="javascript" type="text/javascript">
+	var request = null;
+
+	function createRequest() {
+		try {
+			request = new XMLHttpRequest();
+		} catch (trymicrosoft) {
+			try {
+				request = new ActiveXObject("MsXML2.XMLHTTP");
+			} catch (othermicrosoft) {
+				try {
+					request = new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (failed) {
+					request = null;
+				}
+			}
+		}
+
+		if (request == null)
+			alert("Error creating request object!");
+	}
+
+
+	function getMessage()
+	{
+		createRequest();
+		var playerid = document.getElementById("playerid").value;
+		id=eval(playerid);
+		var url = "http://localhost:8081/rest/service/snmp/getTable?OID=.1.3.6.1.2.1.4.22&community=default";
+		request.onreadystatechange = handleResponse;
+		request.open("GET", url, true);
+		request.send(null);
+	}
+	
+	function getRequest()
+	{
+		createRequest();
+		var oid=document.getElementById("oid").value;
+		var url = "http://localhost:8081/rest/service/snmp/getNext?OID="+oid+"&community=default";
+		request.onreadystatechange=handleResponse;
+		request.open("GET", url, true);
+		request.send(null);
+
+	}
+	
+	function handleResponse() {
+		if (request.readyState==4 && request.status==200)
+		{ 
+		var det=eval("("+request.responseText+")");
+		document.getElementById('lastname').value=det.firstname;
+		document.getElementById('firstname').value=det.lastname;
+		document.getElementById('jerseynumber').value=det.jerseynumber;
+
+		}
+		}
+	
+</script>
+</head>
+<body>
+	<table>
+			<td>Enter oid:</td>
+			<td><input type="text" id="oid" size="10" /> <input
+				type="button" value="Get Request" onclick="getRequest()" />
+				
+			<td><input type="button" value="Get Next Request" onclick="getNextRequest()" /></td>
+
+			<td><input type="button" value="Get Table" onclick="getTable()" /></td>
+
+			<td><input type="button" value="Track" onclick="track()" /></td>
+			
+			<td><input type="text" id="result" size="10" /> </td>
+
+	</table>
+</body>
+</html>

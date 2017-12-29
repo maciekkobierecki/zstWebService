@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script language="javascript" type="text/javascript">
+	var request = null;
+
+	function createRequest() {
+		try {
+			request = new XMLHttpRequest();
+		} catch (trymicrosoft) {
+			try {
+				request = new ActiveXObject("MsXML2.XMLHTTP");
+			} catch (othermicrosoft) {
+				try {
+					request = new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (failed) {
+					request = null;
+				}
+			}
+		}
+
+		if (request == null)
+			alert("Error creating request object!");
+	}
+
+	function getMessage() {
+		document.getElementById('lastname').value = "dasd";
+		document.getElementById('firstname').value = "dasd";
+		document.getElementById('jerseynumber').value = "dasd";
+		createRequest();
+		var playerid = document.getElementById("playerid").value;
+		id = eval(playerid);
+		var url = "http://localhost:8080/PlayerServer/resources/com.playerentity.player/"
+				+ id;
+		request.onreadystatechange = handleResponse;
+		request.open("GET", url, true);
+		request.send(null);
+	}
+
+	function handleResponse() {
+		if (request.readyState == 4 && request.status == 200) {
+			var xmlDocument = request.responseXML;
+			var fnames = xmlDocument.getElementsByTagName("firstname");
+			var lnames = xmlDocument.getElementsByTagName("lastname");
+			var jerseynos = xmlDocument.getElementsByTagName("jerseynumber");
+
+			for (var i = 0; i < fnames.length; i++) {
+				var fname = fnames[i].childNodes[0].nodeValue;
+				var lname = lnames[i].childNodes[0].nodeValue;
+				var jerseyno = jerseynos[i].childNodes[0].nodeValue;
+				document.getElementById('lastname').value = fname;
+				document.getElementById('firstname').value = lname;
+				document.getElementById('jerseynumber').value = jerseyno;
+			}
+		}
+
+	}
+</script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>Enter Player ID :</td>
+			<td><input type="text" id="playerid" size="10" /> <input
+				type="button" value="Get Details" onclick="getMessage()" />
+		</tr>
+		<tr>
+			<td>Player Last Name :</td>
+			<td><input type="text" id="lastname" size="10" /></td>
+		</tr>
+
+		<tr>
+			<td>Player First Name :</td>
+			<td><input type="text" id="firstname" size="10" /></td>
+		</tr>
+
+		<tr>
+			<td>Player Jersey Number :</td>
+			<td><input type="text" id="jerseynumber" size="10" /></td>
+		</tr>
+
+	</table>
+
+
+</body>
+</html>
