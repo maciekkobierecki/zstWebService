@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.SNMPClientGetNextTest" time="0.037" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_151\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Maciek\Desktop\zstWebService\zst-webservice"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Maciek\Desktop\zstWebService\zst-webservice"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\Users\Maciek\Desktop\zstWebService\zst-webservice"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_151\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Maciek\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Maciek\Desktop\zstWebService\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2489503510984238055.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2016a\runtime\win64;C:\Program Files\MATLAB\R2016a\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\apache-maven-3.5.2\bin;C:\Sun\AppServer\bin;C:\Users\Maciek\AppData\Local\Microsoft\WindowsApps;C:\Users\Maciek\AppData\Local\GitHubDesktop\bin;C:\Windows\system32;;."/>
+    <property name="surefire.test.class.path" value="C:\Users\Maciek\Desktop\zstWebService\zst-webservice\target\test-classes;C:\Users\Maciek\Desktop\zstWebService\zst-webservice\target\classes;C:\Users\Maciek\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Maciek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.0.1\junit-jupiter-api-5.0.1.jar;C:\Users\Maciek\.m2\repository\org\opentest4j\opentest4j\1.0.0\opentest4j-1.0.0.jar;C:\Users\Maciek\.m2\repository\org\junit\platform\junit-platform-commons\1.0.1\junit-platform-commons-1.0.1.jar;C:\Users\Maciek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.0.1\junit-jupiter-engine-5.0.1.jar;C:\Users\Maciek\.m2\repository\org\junit\platform\junit-platform-engine\1.0.1\junit-platform-engine-1.0.1.jar;C:\Users\Maciek\.m2\repository\com\sun\jersey\jersey-server\1.19\jersey-server-1.19.jar;C:\Users\Maciek\.m2\repository\com\sun\jersey\jersey-core\1.19\jersey-core-1.19.jar;C:\Users\Maciek\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\Maciek\.m2\repository\com\sun\jersey\jersey-servlet\1.19\jersey-servlet-1.19.jar;C:\Users\Maciek\.m2\repository\javax\javaee-api\7.0\javaee-api-7.0.jar;C:\Users\Maciek\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar;C:\Users\Maciek\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Maciek\.m2\repository\org\apache\tomcat\servlet-api\6.0.44\servlet-api-6.0.44.jar;C:\Users\Maciek\.m2\repository\org\snmp4j\snmp4j\2.5.0\snmp4j-2.5.0.jar;C:\Users\Maciek\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\Maciek\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Maciek"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="user.name" value="Maciek"/>
+    <property name="java.class.path" value="/C:/Users/Maciek/eclipse/java-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_151"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -DforkMode=never test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pl"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_151\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_151\lib\resources.jar;C:\Program Files\Java\jre1.8.0_151\lib\rt.jar;C:\Program Files\Java\jre1.8.0_151\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_151\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_151\lib\jce.jar;C:\Program Files\Java\jre1.8.0_151\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_151\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_151\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Maciek\Desktop\zstWebService\zst-webservice\EMBEDDED"/>
+    <property name="localRepository" value="C:\Users\Maciek\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="forkMode" value="never"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="getNextTest" classname="tests.SNMPClientGetNextTest" time="0.012">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at tests.SNMPClientGetNextTest.getNextTest(SNMPClientGetNextTest.java:14)
+</error>
+  </testcase>
+</testsuite>

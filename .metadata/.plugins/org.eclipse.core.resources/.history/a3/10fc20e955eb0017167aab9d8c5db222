@@ -1,0 +1,122 @@
+package rest;
+
+import java.io.IOException;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Vector;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
+
+import javax.annotation.PostConstruct;
+import javax.enterprise.context.ApplicationScoped;
+
+import org.snmp4j.CommunityTarget;
+import org.snmp4j.PDU;
+import org.snmp4j.Snmp;
+import org.snmp4j.TransportMapping;
+import org.snmp4j.event.ResponseEvent;
+import org.snmp4j.mp.SnmpConstants;
+import org.snmp4j.smi.Integer32;
+import org.snmp4j.smi.OID;
+import org.snmp4j.smi.OctetString;
+import org.snmp4j.smi.UdpAddress;
+import org.snmp4j.smi.Variable;
+import org.snmp4j.smi.VariableBinding;
+import org.snmp4j.transport.DefaultUdpTransportMapping;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@ApplicationScoped
+public class SNMPClient implements Serializable {
+	private static String ipAddress="127.0.0.1";
+	private static String port = "161";
+	private static int snmpVersion=SnmpConstants.version1;
+	
+	private Snmp snmp;
+	private CommunityTarget comtarget;
+
+	public SNMPClient(String community){
+		initCommunityTarget(community);
+		TransportMapping transport;
+		try {
+			transport = new DefaultUdpTransportMapping();
+			transport.listen();
+			snmp=new Snmp(transport);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	private void initCommunityTarget(String community){
+		  comtarget=new CommunityTarget();
+		  comtarget.setCommunity(new OctetString(community));
+		  comtarget.setVersion(snmpVersion);
+		  comtarget.setAddress(new UdpAddress(ipAddress + "/" + port));
+		  comtarget.setRetries(2);
+		  comtarget.setTimeout(100000);
+	}
+	
+	private PDU createPDU(String oidValue, int pduType){
+		PDU pdu=new PDU();
+		pdu.add(new VariableBinding(new OID(oidValue)));
+		pdu.setRequestID(new Integer32(1));
+		pdu.setType(pduType);
+		return pdu;
+	}
+	
+	public PDU sendGetNext(String oidValue) throws IOException{
+		PDU pdu=createPDU(oidValue, PDU.GETNEXT);
+		ResponseEvent response = snmp.getNext(pdu, comtarget);
+		PDU responsePDU= response.getResponse();
+		close();
+		return responsePDU;
+	}
+	
+	public PDU sendGet(String oidValue) throws IOException{
+		PDU pdu=createPDU(oidValue, PDU.GETNEXT);
+		ResponseEvent response = snmp.get(pdu, comtarget);
+		PDU responsePDU= response.getResponse();
+		close();
+		return responsePDU;
+	}
+	
+	public PDU sendGetBulk(String oidValue) throws IOException{
+		PDU pdu=createPDU(oidValue, PDU.GETBULK);
+		pdu.setNonRepeaters(0);
+		pdu.setMaxRepetitions(10);
+		ResponseEvent response = snmp.send(pdu, comtarget);
+		PDU responsePDU= response.getResponse();
+		close();
+		return responsePDU;
+	}
+	
+	public void close() throws IOException{
+		snmp.close();
+	}
+	
+	public PDU getTable(String oidValue){
+		OID tableOID=new OID(oidValue);
+		OID returnedOID=null;
+		do{
+			//PDU gotNext=sendGetNext()
+		}while(returnedOID.startsWith(tableOID));
+		return null;
+	}
+	
+	public String convertVariableBindingsToJSON(PDU pdu) throws JsonProcessingException{
+		//TODO: u¿yæ Jackson processor			
+		ObjectMapper objectMapper=new ObjectMapper();
+		Vector<VariableBinding> varBinds=(Vector<VariableBinding>) pdu.getVariableBindings();
+		Map<OID, String> vars= varBinds.stream().collect(Collectors.toMap(VariableBinding::getOid, VariableBinding::toValueString));
+		String converted=objectMapper.writeValueAsString(vars);
+		return converted;
+	}
+	
+	
+}

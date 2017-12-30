@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.SNMPClientGetNextTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.037 sec <<< FAILURE! - in tests.SNMPClientGetNextTest
+getNextTest()  Time elapsed: 0.012 sec  <<< ERROR!
+java.lang.NullPointerException
+	at tests.SNMPClientGetNextTest.getNextTest(SNMPClientGetNextTest.java:14)
+
