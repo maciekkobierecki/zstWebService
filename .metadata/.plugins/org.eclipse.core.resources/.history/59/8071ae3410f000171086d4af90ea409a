@@ -73,7 +73,7 @@
 			var det = eval("(" + request.responseText + ")");
 			var prevOid=document.getElementById("oid");
 			for ( var key in det) {
-				prevOid.value=key;
+				prevOid=key;
 				document.getElementById('resultOID').value = key;
 				document.getElementById('resultValue').value = det[key];
 			}

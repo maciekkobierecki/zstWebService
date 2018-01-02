@@ -71,9 +71,8 @@
 	function handleGetNextResponse() {
 		if (request.readyState == 4 && request.status == 200) {
 			var det = eval("(" + request.responseText + ")");
-			var prevOid=document.getElementById("oid");
+			document.getElementById("oid")=det;
 			for ( var key in det) {
-				prevOid.value=key;
 				document.getElementById('resultOID').value = key;
 				document.getElementById('resultValue').value = det[key];
 			}

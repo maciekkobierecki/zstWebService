@@ -52,7 +52,7 @@
 		var oid = document.getElementById("oid").value;
 		var url = "http://localhost:8081/zst-webservice/api/snmp/getNext?OID=" + oid
 				+ "&community=default";
-		request.onreadystatechange = handleGetNextResponse;
+		request.onreadystatechange = handleGetResponse;
 		request.open("GET", url, true);
 		request.send(null);
 	}
@@ -68,22 +68,8 @@
 		}
 	}
 	
-	function handleGetNextResponse() {
-		if (request.readyState == 4 && request.status == 200) {
-			var det = eval("(" + request.responseText + ")");
-			var prevOid=document.getElementById("oid");
-			for ( var key in det) {
-				prevOid.value=key;
-				document.getElementById('resultOID').value = key;
-				document.getElementById('resultValue').value = det[key];
-			}
-
-		}
-	}
-	
 	function callApi(){
-		var value=document.getElementById("function_name").selectedIndex;
-		var choosed=document.getElementsByTagName("option")[value].value;
+		var choosed=document.getElementById("oid").value;
 		switch(choosed){
 		case "get":
 			getRequest();
@@ -100,13 +86,13 @@
 </head>
 <body>
 	<div class="container">
-		<div class="form">
-			<input type="text" id="oid" placeholder="OID" size="50"> <select id="function_name">
+		<div class="form,">
+			<input type="text" id="oid" placeholder="OID" size="50"> <select name="function">
 				<option value="get">Get</option>
 				<option value="getnext">Get Next</option>
 				<option value="gettable">Get Table</option>
 			</select> 
-			<input type="submit" value="GO" onclick="callApi()">
+			<input type="submit" value="GO" onclick="getRequest()">
 		</div>
 		<div class="results">
 		Tutaj będą wyniki.
