@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
 <script language="javascript" type="text/javascript">
 	var request = null;
 
@@ -70,19 +69,30 @@
 </script>
 </head>
 <body>
-	<div class="container">
-		<form action="getRequest()">
-			<input type="text" id="oid" placeholder="OID" size="50"> <select name="function">
-				<option value="get">Get</option>
-				<option value="getnext">Get Next</option>
-				<option value="getbulk">Get Bulk</option>
-				<option value="gettable">Get Table</option>
-			</select> 
-			<input type="submit" value="GO">
-		</form>
-		<div class="results">
-		Tutaj będą wyniki.
-		</div>
-	</div>
+	<table>
+		<tr>
+			<td>Enter oid:</td>
+			<td><input type="text" id="oid" size="40" /> <input
+				type="button" value="Get Request" onclick="getRequest()" />
+			<td><input type="button" value="Get Next Request"
+				onclick="getNextRequest()" /></td>
+
+			<td><input type="button" value="Get Table" onclick="getTable()" /></td>
+
+			<td><input type="button" value="Track" onclick="track()" /></td>
+
+		</tr>
+
+		<tr>
+			<td>OID:</td>
+
+			<td><input type="text" id="resultOID" size="40" /></td>
+
+			<td>Value:</td>
+
+			<td><input type="text" id="resultValue" size="40" /></td>
+		</tr>
+
+	</table>
 </body>
 </html>
