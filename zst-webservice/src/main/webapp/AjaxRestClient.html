@@ -29,7 +29,7 @@
 		createRequest();
 		var playerid = document.getElementById("playerid").value;
 		id = eval(playerid);
-		var url = "http://localhost:8081/rest/service/snmp/getTable?OID=.1.3.6.1.2.1.4.22&community=default";
+		var url = "http://localhost:8081/zst-webservice/api/snmp/getTable?OID=.1.3.6.1.2.1.4.22&community=default";
 		request.onreadystatechange = handleResponse;
 		request.open("GET", url, true);
 		request.send(null);
@@ -38,7 +38,7 @@
 	function getRequest() {
 		createRequest();
 		var oid = document.getElementById("oid").value;
-		var url = "http://localhost:8081/rest/service/snmp/get?OID=" + oid
+		var url = "http://localhost:8081/zst-webservice/api/snmp/get?OID=" + oid
 				+ "&community=default";
 		request.onreadystatechange = handleGetResponse;
 		request.open("GET", url, true);
@@ -49,7 +49,7 @@
 	function getNextRequest() {
 		createRequest();
 		var oid = document.getElementById("oid").value;
-		var url = "http://localhost:8081/rest/service/snmp/getNext?OID=" + oid
+		var url = "http://localhost:8081/zst-webservice/api/snmp/getNext?OID=" + oid
 				+ "&community=default";
 		request.onreadystatechange = handleGetResponse;
 		request.open("GET", url, true);

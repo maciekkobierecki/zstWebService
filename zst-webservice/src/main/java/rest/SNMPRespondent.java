@@ -123,7 +123,6 @@ public class SNMPRespondent {
 		snmpClient=new SNMPClient("public");
 		BlockingQueue<PDU> queue=(BlockingQueue<PDU>) context.getAttribute(TrapsContextListener.TRAPS);
 		try {
-			System.out.println(queue.size());
 			PDU trapPDU=queue.take();
 			response=snmpClient.convertVariableBindingsToJSON(trapPDU);
 			return response;
