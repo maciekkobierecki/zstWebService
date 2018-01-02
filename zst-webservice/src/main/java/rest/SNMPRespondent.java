@@ -1,18 +1,40 @@
 package rest;
 import java.io.IOException;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Vector;
+import java.util.concurrent.BlockingQueue;
 
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+import javax.servlet.ServletContext;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Context;
 
+import org.json.JSONException;
 import org.snmp4j.PDU;
+import org.snmp4j.smi.IpAddress;
+import org.snmp4j.smi.TcpAddress;
+import org.snmp4j.smi.TransportIpAddress;
 import org.snmp4j.smi.VariableBinding;
+import org.snmp4j.util.TableEvent;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+
+@ApplicationScoped
 @Path("/snmp")
 public class SNMPRespondent {
-
 	SNMPClient snmpClient;
+	private @Inject List<PDU> pdus;
+	
+	public SNMPRespondent(){
+	}
+	
+	
 	@GET
 	@Path("getNext")
 	public String getNext(
@@ -31,7 +53,6 @@ public class SNMPRespondent {
 		}
 		return "null";
 	} 
-	
 	
 	@GET
 	@Path("get")
@@ -52,6 +73,7 @@ public class SNMPRespondent {
 		return "null";
 	}
 	
+	
 	@GET
 	@Path("getBulk")
 	public String getBulk(
@@ -61,7 +83,7 @@ public class SNMPRespondent {
 		PDU responsePDU;
 		try {
 			snmpClient=new SNMPClient(community);
-			responsePDU = snmpClient.sendGetBulk(oid,0,100);
+			responsePDU = snmpClient.sendGetBulk(oid,0,2);
 			String response=snmpClient.convertVariableBindingsToJSON(responsePDU);
 			return response;
 		} catch (IOException e) {
@@ -76,13 +98,16 @@ public class SNMPRespondent {
 	public String getTable(
 			@QueryParam("OID") String oid,
 			@QueryParam("community") String community){
-		PDU responsePDU;
+		List<PDU> responsePDU;
 		try {
 			snmpClient=new SNMPClient(community);
 			responsePDU = snmpClient.getTable(oid);
-			String response=snmpClient.convertVariableBindingsToJSON(responsePDU);
+			String response=snmpClient.convertPDUListToJSON(responsePDU);
 			return response;
 		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -91,11 +116,26 @@ public class SNMPRespondent {
 	}
 	
 	
-	
-	
 	@GET
-	@Path("/test")
-	public String get(){
-		return "test";
+	@Path("getTrap")
+	public String getTrap(@Context ServletContext context){
+		String response="";
+		snmpClient=new SNMPClient("public");
+		BlockingQueue<PDU> queue=(BlockingQueue<PDU>) context.getAttribute(TrapsContextListener.TRAPS);
+		try {
+			System.out.println(queue.size());
+			PDU trapPDU=queue.take();
+			response=snmpClient.convertVariableBindingsToJSON(trapPDU);
+			return response;
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JsonProcessingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		
+		}
+		return "null";
 	}
+			
 }

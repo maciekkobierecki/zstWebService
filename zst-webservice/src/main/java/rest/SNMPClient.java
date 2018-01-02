@@ -2,7 +2,9 @@ package rest;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.io.StringReader;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Vector;
@@ -12,7 +14,14 @@ import java.util.stream.Collectors;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
+import javax.json.Json;
+import javax.json.JsonArray;
+import javax.json.JsonObject;
+import javax.json.JsonValue;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.snmp4j.CommunityTarget;
 import org.snmp4j.PDU;
 import org.snmp4j.Snmp;
@@ -26,12 +35,21 @@ import org.snmp4j.smi.UdpAddress;
 import org.snmp4j.smi.Variable;
 import org.snmp4j.smi.VariableBinding;
 import org.snmp4j.transport.DefaultUdpTransportMapping;
+import org.snmp4j.util.DefaultPDUFactory;
+import org.snmp4j.util.PDUFactory;
+import org.snmp4j.util.TableEvent;
+import org.snmp4j.util.TableUtils;
 
+import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-@ApplicationScoped
+
 public class SNMPClient implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private static String ipAddress="127.0.0.1";
 	private static String port = "161";
 	private static int snmpVersion=SnmpConstants.version1;
@@ -101,12 +119,16 @@ public class SNMPClient implements Serializable {
 		snmp.close();
 	}
 	
-	public PDU getTable(String oidValue) throws IOException{
+	public List<PDU> getTable(String oidValue) throws IOException{
 		OID tableOID=new OID(oidValue);
+		tableOID.append(1);
 		OID currentOID=(OID)tableOID.clone();
-		PDU tablePDU=new PDU();
+		List<PDU> tablePDU=new ArrayList<PDU>();
 		Vector<VariableBinding> varBinds=null;
 		PDU sent=null;
+		int earlierColumnSubidentifier=-1;
+		int columnSubidentifier;
+		PDU currentPDU=null;
 		while(currentOID.startsWith(tableOID)){
 			
 			sent=sendGetBulk(currentOID.toString(), 0, 100);
@@ -114,21 +136,63 @@ public class SNMPClient implements Serializable {
 			
 			for(VariableBinding var: varBinds){
 				currentOID=var.getOid();
-				if(currentOID.startsWith(tableOID))
-					tablePDU.add(var);
+				if(currentOID.startsWith(tableOID)){
+					columnSubidentifier=getColumnSubidentifier(currentOID, tableOID);
+					if(columnSubidentifier != earlierColumnSubidentifier){
+						currentPDU=new PDU();
+						tablePDU.add(currentPDU);
+						earlierColumnSubidentifier=columnSubidentifier;
+					}
+	
+						currentPDU.add(var);
+				}
 			}
 		}
 		return tablePDU;
 	}
 	
+	private int getColumnSubidentifier(OID currentOID, OID tableOID) {
+		int columnSubidentifier=currentOID.get(tableOID.size());
+		return columnSubidentifier;
+	}
+
 	public String convertVariableBindingsToJSON(PDU pdu) throws JsonProcessingException{
 		//TODO: u¿yæ Jackson processor			
 		ObjectMapper objectMapper=new ObjectMapper();
 		Vector<VariableBinding> varBinds=(Vector<VariableBinding>) pdu.getVariableBindings();
-		Map<OID, String> vars= varBinds.stream().collect(Collectors.toMap(VariableBinding::getOid, VariableBinding::toValueString));
-		String converted=objectMapper.writeValueAsString(varBinds);
+		LinkedHashMap<OID, String> vars= varBinds.stream().collect(Collectors.toMap(VariableBinding::getOid,
+				VariableBinding::toValueString,
+				(u, v) -> { throw new IllegalStateException(String.format("Duplicate key %s", u));
+				},
+				LinkedHashMap::new));
+		String converted=objectMapper.writeValueAsString(vars);
 		return converted;
 	}
 	
+	public String convertPDUListToJSON(List<PDU> pdus) throws JsonProcessingException, JSONException{
+		List<LinkedHashMap<OID, String>>columns=new ArrayList<LinkedHashMap<OID,String>>();
+		for(PDU pdu: pdus){
+			Vector<VariableBinding> varBinds=(Vector<VariableBinding>) pdu.getVariableBindings();
+			LinkedHashMap<OID, String> vars= varBinds.stream().collect(Collectors.toMap(VariableBinding::getOid,
+					VariableBinding::toValueString,
+					(u, v) -> { throw new IllegalStateException(String.format("Duplicate key %s", u));
+					},
+					LinkedHashMap::new));
+			columns.add(vars);
+		}
+		return toJSONArray(columns);
+	}
+
+	private String toJSONArray(List<LinkedHashMap<OID, String>> columns) throws JsonProcessingException, JSONException {
+		ObjectMapper objectMapper=new ObjectMapper();
+		String rows="";
+		ArrayList<String> table=new ArrayList<String>();
+		for(LinkedHashMap<OID, String> col : columns){
+			rows=objectMapper.writeValueAsString(col);
+			table.add(rows);
+		}
+		return table.toString();		
+	}
+
 	
 }

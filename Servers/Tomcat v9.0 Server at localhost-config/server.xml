@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="zst-webservice" path="/rest" reloadable="true" source="org.eclipse.jst.j2ee.server:zst-webservice"/></Host>
+      <Context docBase="zst-webservice" path="/zst-webservice" reloadable="true" source="org.eclipse.jst.j2ee.server:zst-webservice"/></Host>
     </Engine>
   </Service>
 </Server>

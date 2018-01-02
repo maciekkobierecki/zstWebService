@@ -1,0 +1,121 @@
+package rest;
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.QueryParam;
+
+import org.json.JSONException;
+import org.snmp4j.PDU;
+import org.snmp4j.smi.IpAddress;
+import org.snmp4j.smi.TcpAddress;
+import org.snmp4j.smi.TransportIpAddress;
+import org.snmp4j.smi.VariableBinding;
+import org.snmp4j.util.TableEvent;
+
+@Path("/snmp")
+public class SNMPRespondent {
+	Boolean called=false;
+	SNMPClient snmpClient;
+	List<PDU> pdus;
+	
+	public SNMPRespondent(){
+		called=true;
+		pdus=new ArrayList<PDU>();
+		TrapReceiver receiver=new TrapReceiver();
+		try {
+			receiver.listen(new TcpAddress(InetAddress.getLocalHost(),162), pdus);
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//receiver.listen();
+	}
+	@GET
+	@Path("getNext")
+	public String getNext(
+			@QueryParam("OID") String oid,
+			@QueryParam("community") String community){
+		
+		PDU responsePDU;
+		try {
+			snmpClient=new SNMPClient(community);
+			responsePDU = snmpClient.sendGetNext(oid);
+			String response=snmpClient.convertVariableBindingsToJSON(responsePDU);
+			return response;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "null";
+	} 
+	
+	@GET
+	@Path("get")
+	public String get(
+			@QueryParam("OID") String oid,
+			@QueryParam("community") String community){
+		
+		PDU responsePDU;
+		try {
+			snmpClient=new SNMPClient(community);
+			responsePDU = snmpClient.sendGet(oid);
+			String response=snmpClient.convertVariableBindingsToJSON(responsePDU);
+			return response;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "null";
+	}
+	
+	
+	@GET
+	@Path("getBulk")
+	public String getBulk(
+			@QueryParam("OID") String oid,
+			@QueryParam("community") String community){
+		
+		PDU responsePDU;
+		try {
+			snmpClient=new SNMPClient(community);
+			responsePDU = snmpClient.sendGetBulk(oid,0,2);
+			String response=snmpClient.convertVariableBindingsToJSON(responsePDU);
+			return response;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "null";
+	}
+	
+	@GET
+	@Path("getTable")
+	public String getTable(
+			@QueryParam("OID") String oid,
+			@QueryParam("community") String community){
+		List<PDU> responsePDU;
+		try {
+			snmpClient=new SNMPClient(community);
+			responsePDU = snmpClient.getTable(oid);
+			String response=snmpClient.convertPDUListToJSON(responsePDU);
+			return response;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "null";
+		
+	}
+}
