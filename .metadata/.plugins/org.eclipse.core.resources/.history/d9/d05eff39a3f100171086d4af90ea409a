@@ -111,6 +111,7 @@ public class SNMPClient implements Serializable {
 		pdu.setMaxRepetitions(maxRepetitions);
 		ResponseEvent response = snmp.getBulk(pdu, comtarget);
 		PDU responsePDU= response.getResponse();
+		close();
 		return responsePDU;
 	}
 	
@@ -132,7 +133,8 @@ public class SNMPClient implements Serializable {
 		int maxRepetitions=100;
 		while(currentOID.startsWith(tableOID)){
 			
-			sent=sendGetBulk(currentOID.toString(), nonRepeaters, maxRepetitions);
+			sent=sendGetBulk(tableOID.toString(), nonRepeaters, maxRepetitions);
+			nonRepeaters+=maxRepetitions;
 			varBinds=(Vector<VariableBinding>)sent.getVariableBindings();
 			
 			for(VariableBinding var: varBinds){
@@ -149,7 +151,6 @@ public class SNMPClient implements Serializable {
 				}
 			}
 		}
-		snmp.close();
 		return tablePDU;
 	}
 	

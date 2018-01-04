@@ -13,7 +13,6 @@ import rest.TrapReceiver;
 
 public class SNMPReceiverTest {
 	
-	/*
 	@Test
 	public void testReceivingTest(){
 		BlockingQueue<PDU> traps=new LinkedBlockingDeque<PDU>();                        
@@ -26,6 +25,5 @@ public class SNMPReceiverTest {
 		}
 		assert(traps.size()==0);
 	}
-	*/
 
 }
