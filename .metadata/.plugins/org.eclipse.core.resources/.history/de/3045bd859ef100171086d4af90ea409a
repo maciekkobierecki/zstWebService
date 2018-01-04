@@ -123,18 +123,16 @@ public class SNMPRespondent {
 		snmpClient=new SNMPClient("public");
 		BlockingQueue<PDU> queue=(BlockingQueue<PDU>) context.getAttribute(TrapsContextListener.TRAPS);
 		try {
-			if(queue.size()>0){
-				PDU trapPDU=queue.take();
-				response=snmpClient.convertVariableBindingsToJSON(trapPDU);
-				return response;
-			}
-			
+			PDU trapPDU=queue.take();
+			response=snmpClient.convertVariableBindingsToJSON(trapPDU);
+			return response;
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (JsonProcessingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		
 		}
 		return "null";
 	}
