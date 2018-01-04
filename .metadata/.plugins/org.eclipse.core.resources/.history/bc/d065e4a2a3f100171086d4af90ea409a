@@ -132,7 +132,8 @@ public class SNMPClient implements Serializable {
 		int maxRepetitions=100;
 		while(currentOID.startsWith(tableOID)){
 			
-			sent=sendGetBulk(currentOID.toString(), nonRepeaters, maxRepetitions);
+			sent=sendGetBulk(tableOID.toString(), nonRepeaters, maxRepetitions);
+			nonRepeaters+=maxRepetitions;
 			varBinds=(Vector<VariableBinding>)sent.getVariableBindings();
 			
 			for(VariableBinding var: varBinds){
