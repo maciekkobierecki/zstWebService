@@ -51,4 +51,10 @@
 <fullyQualifiedTypeName name="java.util.concurrent.BlockingQueue"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="javax.ws.rs.container.PreMatching"/>
+<fullyQualifiedTypeName name="org.snmp4j.util.SimpleOIDTextFormat"/>
+<fullyQualifiedTypeName name="com.sun.jersey.spi.container.ContainerRequestFilter"/>
+<fullyQualifiedTypeName name="javax.ws.rs.container.ContainerRequestFilter"/>
+<fullyQualifiedTypeName name="com.sun.jersey.spi.container.ContainerResponseFilter"/>
+<fullyQualifiedTypeName name="javax.ws.rs.container.ContainerResponseFilter"/>
 </qualifiedTypeNameHistroy>

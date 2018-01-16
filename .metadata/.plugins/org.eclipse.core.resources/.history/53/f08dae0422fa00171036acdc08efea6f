@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MIB Browser</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script language="javascript" type="text/javascript">
+	var request = null;
+
+	function createRequest() {
+		try {
+			request = new XMLHttpRequest();
+		} catch (trymicrosoft) {
+			try {
+				request = new ActiveXObject("MsXML2.XMLHTTP");
+			} catch (othermicrosoft) {
+				try {
+					request = new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (failed) {
+					request = null;
+				}
+			}
+		}
+
+		if (request == null)
+			alert("Error creating request object!");
+	}
+
+	function getMessage() {
+		createRequest();
+		var playerid = document.getElementById("playerid").value;
+		id = eval(playerid);
+		var url = "http://localhost:8082/zst-webservice/api/snmp/getTable?OID=.1.3.6.1.2.1.4.22&community=default";
+		request.onreadystatechange = handleResponse;
+		request.open("GET", url, true);
+		request.send(null);
+	}
+
+	function getRequest() {
+		createRequest();
+		var oid = document.getElementById("oid").value;
+		var url = "http://localhost:8082/zst-webservice/api/snmp/get?OID="
+				+ oid + "&community=default";
+		request.onreadystatechange = handleGetResponse;
+		request.open("GET", url, true);
+		request.send(null);
+
+	}
+
+	function getNextRequest() {
+		createRequest();
+		var oid = document.getElementById("oid").value;
+		var url = "http://localhost:8082/zst-webservice/api/snmp/getNext?OID="
+				+ oid + "&community=default";
+		request.onreadystatechange = handleGetNextResponse;
+		request.open("GET", url, true);
+		request.send(null);
+	}
+
+	function getTable() {
+		createRequest();
+		var oid = document.getElementById("oid").value;
+		var url = "http://localhost:8082/zst-webservice/api/snmp/getTable?OID="
+				+ oid + "&community=default";
+		request.onreadystatechange = handleGetTableResponse;
+		request.open("GET", url, true);
+		request.send(null);
+	}
+
+	setInterval(getTrap, 1000);
+	
+	function getTrap() {
+		createRequest();
+		var oid = document.getElementById("oid").value;
+		var url = "http://localhost:8082/zst-webservice/api/snmp/getTrap";
+		request.onreadystatechange = function() {
+			if (request.readyState == 4 && request.status == 200) {
+				var det = eval("(" + request.responseText + ")");
+				if (det != 'null') {
+					for ( var key in det) {
+						alert('Received trap with OID = ' + key + ' and value = ' + det[key]);
+					}
+				}
+			}
+		};
+
+		request.open("GET", url, true);
+		request.send(null);
+	}
+	
+	function handleGetTableResponse() {
+		if (request.readyState == 4 && request.status == 200) {
+			document.getElementById("get_table_result").innerHTML = "";
+			var myBooks = eval("(" + request.responseText + ")");
+			var table = document.createElement("table");
+			for ( var key in myBooks[0]) {
+				var tr = table.insertRow(-1);
+			}
+			for (var i = 0; i < myBooks.length; i++) {
+				var j = 0;
+				for ( var key in myBooks[i]) {
+					var tabCell = table.rows[j].insertCell(-1);
+					tabCell.innerHTML = myBooks[i][key];
+					tabCell.setAttribute("title", key);
+					j++;
+				}
+			}
+
+			var divContainer = document.getElementById("get_table_result");
+			divContainer.innerHTML = "";
+			divContainer.appendChild(table);
+			showResults('get_table_result');
+		}
+	}
+
+	function handleGetResponse() {
+		if (request.readyState == 4 && request.status == 200) {
+			var det = eval("(" + request.responseText + ")");
+			var table = document.getElementById('table_results')
+			var tr = table.insertRow(-1);
+			for ( var key in det) {
+
+				tr.insertCell(0).innerHTML = key;
+				tr.insertCell(1).innerHTML = det[key];
+
+			}
+			showResults('standard')
+		}
+	}
+
+	function handleGetNextResponse() {
+		if (request.readyState == 4 && request.status == 200) {
+			var det = eval("(" + request.responseText + ")");
+			var prevOid = document.getElementById("oid");
+			var table = document.getElementById('table_results')
+			var tr = table.insertRow(-1);
+			for ( var key in det) {
+				prevOid.value = key;
+				tr.insertCell(0).innerHTML = key;
+				tr.insertCell(1).innerHTML = det[key];
+			}
+			showResults('standard')
+		}
+	}
+
+	function callApi() {
+		var value = document.getElementById("function_name").selectedIndex;
+		var choosed = document.getElementsByTagName("option")[value].value;
+		switch (choosed) {
+		case "get":
+			getRequest();
+			break;
+		case "getnext":
+			getNextRequest();
+			break;
+		case "gettable":
+			getTable();
+			break;
+		case "trackchanges":
+			trackChanges();
+			break;
+		}
+	}
+
+	function showResults(view) {
+		var i;
+		var x = document.getElementsByClassName("results");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		document.getElementById(view).style.display = "block";
+	}
+
+	var refreshIntervalID = null;
+	var trackedOID = null;
+	var trackedValue = null;
+
+	function trackChanges() {
+		if (refreshIntervalID != null) {
+			clearInterval(refreshIntervalID);
+			trackedOID = null;
+			trackedValue = null;
+		}
+
+		document.getElementById("track_info").style.display = "block";
+		singleTrack();
+		refreshIntervalID = setInterval(singleTrack, 5000);
+	}
+
+	function singleTrack() {
+		createRequest();
+		if (trackedOID == null) {
+			trackedOID = document.getElementById("oid").value;
+			var divContainer = document.getElementById("track_oid");
+			divContainer.innerHTML = trackedOID;
+		}
+
+		var url = "http://192.168.43.29:8082/zst-webservice/api/snmp/get?OID="
+				+ trackedOID + "&community=default";
+
+		request.onreadystatechange = function() {
+			if (request.readyState == 4 && request.status == 200) {
+				var det = eval("(" + request.responseText + ")");
+				for ( var key in det) {
+					if (trackedValue != null) {
+						if (det[key] != trackedValue) {
+							alert('Value changed from ' + trackedValue + ' to '
+									+ det[key]);
+							var divContainer = document
+									.getElementById("track_value");
+							divContainer.innerHTML = det[key];
+						}
+					} else {
+						trackedValue = det[key];
+						var divContainer = document
+								.getElementById("track_value");
+						divContainer.innerHTML = det[key];
+					}
+				}
+			}
+		};
+
+		request.open("GET", url, true);
+		request.send(null);
+
+	}
+
+	function stopTracking() {
+		document.getElementById("track_info").style.display = "none";
+		if (refreshIntervalID != null) {
+			clearInterval(refreshIntervalID);
+			trackedOID = null;
+			trackedValue = null;
+		}
+
+	}
+</script>
+</head>
+<body>
+	<div class="container">
+		<div class="form">
+			<input type="text" id="oid" placeholder="OID" size="50"> <select
+				id="function_name">
+				<option value="get">Get</option>
+				<option value="getnext">Get Next</option>
+				<option value="gettable">Get Table</option>
+				<option value="trackchanges">Track Changes</option>
+			</select> <input type="submit" value="GO" onclick="callApi()">
+		</div>
+
+		<div id="track_info" style="display: none">
+			Tracking:
+			<div id="track_oid"></div>
+			Value:
+			<div id="track_value"></div>
+			<button class="stop_tracking" onclick="stopTracking()">Stop
+				tracking</button>
+		</div>
+
+		<div id="standard" class="results">
+			<table id="table_results"></table>
+		</div>
+
+		<div id="get_table_result" class="results" style="display: none">
+		</div>
+
+		<div class="nav_bar">
+			<button class="nav_button" onclick="showResults('standard')">Standard
+				view</button>
+			<button class="nav_button" onclick="showResults('get_table_result')">Table
+				view</button>
+		</div>
+
+	</div>
+</body>
+</html>

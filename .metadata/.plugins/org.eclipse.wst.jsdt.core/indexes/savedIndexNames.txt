@@ -1,8 +1,7 @@
-INDEX VERSION 1.3+C:\Users\Maciek\Desktop\zstWebService\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1364618257.index
-1169105758.index
+INDEX VERSION 1.4+C:\Users\73773\Desktop\zst\zstWebService\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3009387421.index
+99386901.index
+2705581474.index
+211164615.index
 2781083550.index
-561299122.index
-2029926393.index
-3331862559.index
-3565563508.index
+1364772285.index

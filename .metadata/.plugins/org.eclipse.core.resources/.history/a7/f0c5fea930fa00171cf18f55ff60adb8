@@ -1,0 +1,40 @@
+package rest;
+import java.io.IOException;
+
+import javax.ws.rs.container.ContainerRequestContext;
+import javax.ws.rs.container.ContainerResponseContext;
+import javax.ws.rs.container.PreMatching;
+import javax.ws.rs.ext.Provider;
+
+import com.sun.jersey.spi.container.ContainerRequest;
+import com.sun.jersey.spi.container.ContainerResponse;
+import com.sun.jersey.spi.container.ContainerResponseFilter;
+
+@Provider
+public class CORSFilter implements ContainerResponseFilter {
+ 
+    
+
+
+
+	//@Override
+	public void filter(ContainerRequestContext requestContext, ContainerResponseContext responseContext)
+			throws IOException {
+		requestContext.getHeaders().add(
+	            "Access-Control-Allow-Origin", "*");
+		requestContext.getHeaders().add(
+	            "Access-Control-Allow-Credentials", "true");
+	    requestContext.getHeaders().add(
+	           "Access-Control-Allow-Headers",
+	           "origin, content-type, accept, authorization");
+	    requestContext.getHeaders().add(
+	            "Access-Control-Allow-Methods", 
+	            "GET, POST, PUT, DELETE, OPTIONS, HEAD");
+		
+	}
+
+	@Override
+	public ContainerResponse filter(ContainerRequest arg0, ContainerResponse arg1) {
+		return arg1;
+	}
+}

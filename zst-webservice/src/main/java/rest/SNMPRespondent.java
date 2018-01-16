@@ -2,6 +2,7 @@ package rest;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
@@ -21,6 +22,7 @@ import org.snmp4j.smi.IpAddress;
 import org.snmp4j.smi.TcpAddress;
 import org.snmp4j.smi.TransportIpAddress;
 import org.snmp4j.smi.VariableBinding;
+import org.snmp4j.util.SimpleOIDTextFormat;
 import org.snmp4j.util.TableEvent;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -138,5 +140,22 @@ public class SNMPRespondent {
 		}
 		return "null";
 	}
-			
+		
+	
+	
+	@GET
+	@Path("translateOidToName")
+	public String getName(@QueryParam("OID")String oid) {
+		SimpleOIDTextFormat formatter=new SimpleOIDTextFormat();
+		int[] value;
+		try {
+			value = SimpleOIDTextFormat.parseOID(oid);
+			String name=formatter.format(value);
+			return name;
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return "null";
+	}
 }
