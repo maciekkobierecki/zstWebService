@@ -368,3 +368,723 @@
 2018-01-16 07:27:47,146 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-01-16 07:27:47,150 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-01-16 07:27:47,181 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:17:12,226 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:17:12,247 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:17:12,250 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:17:12,275 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:30:49,230 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:30:49,280 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:30:49,295 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:30:49,392 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:31:24,836 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:31:24,846 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:31:24,848 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:31:24,864 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:31:47,763 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:31:47,828 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:31:47,843 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:31:47,872 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:32:29,811 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:32:29,827 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:32:29,830 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:32:29,846 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:39:18,026 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zst.content-snmp-server:zst-webservice:0.0.1-SNAPSHOT @ C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\pom.xml.
+2018-01-16 08:39:20,743 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:39:20,809 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:39:20,870 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:39:20,968 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:39:20,987 [Worker-76] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of zst-webservice
+2018-01-16 08:39:20,988 [Worker-76] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for zst-webservice
+2018-01-16 08:39:21,008 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:40:10,592 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:40:10,610 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:40:10,612 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:40:10,635 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:40:39,348 [Worker-77] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zst.content-snmp-server:zst-webservice:0.0.1-SNAPSHOT @ C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\pom.xml.
+2018-01-16 08:40:40,403 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:40:40,419 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:40:40,427 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:40:40,434 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:40:40,440 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of zst-webservice
+2018-01-16 08:40:40,440 [Worker-77] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for zst-webservice
+2018-01-16 08:40:40,451 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:40:46,943 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zst.content-snmp-server:zst-webservice:0.0.1-SNAPSHOT @ C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\pom.xml.
+2018-01-16 08:40:47,082 [Worker-74] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.pom
+2018-01-16 08:40:47,217 [Worker-74] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.pom
+2018-01-16 08:40:47,264 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.pom
+2018-01-16 08:40:47,303 [Worker-74] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.2/gson-parent-2.8.2.pom
+2018-01-16 08:40:47,344 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.pom
+2018-01-16 08:40:47,392 [Worker-74] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.2/gson-parent-2.8.2.pom
+2018-01-16 08:40:47,461 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.2/gson-parent-2.8.2.pom
+2018-01-16 08:40:47,484 [Worker-74] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2018-01-16 08:40:47,538 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.2/gson-parent-2.8.2.pom
+2018-01-16 08:40:47,582 [Worker-74] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2018-01-16 08:40:47,669 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2018-01-16 08:40:47,714 [Worker-74] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar
+2018-01-16 08:40:47,773 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2018-01-16 08:40:48,187 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar
+2018-01-16 08:40:48,320 [Worker-74] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar
+2018-01-16 08:40:48,688 [Worker-76] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar
+2018-01-16 08:40:49,830 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:40:49,846 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:40:49,848 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:40:49,876 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:40:49,877 [Worker-76] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of zst-webservice
+2018-01-16 08:40:49,877 [Worker-76] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for zst-webservice
+2018-01-16 08:40:49,997 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:40:52,025 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:40:52,124 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:40:52,135 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:40:52,299 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:41:05,828 [Worker-63] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zst.content-snmp-server:zst-webservice:0.0.1-SNAPSHOT @ C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\pom.xml.
+2018-01-16 08:41:06,820 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:41:06,835 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:41:06,844 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:41:06,866 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:41:06,876 [Worker-63] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of zst-webservice
+2018-01-16 08:41:06,876 [Worker-63] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for zst-webservice
+2018-01-16 08:41:06,891 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:42:02,867 [Worker-63] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for zst-webservice
+2018-01-16 08:42:05,735 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:42:05,750 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:42:05,762 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:42:05,776 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:42:05,789 [Worker-76] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of zst-webservice
+2018-01-16 08:42:05,789 [Worker-76] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for zst-webservice
+2018-01-16 08:42:05,808 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:42:31,126 [Worker-75] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-16 08:42:31,669 [Worker-75] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zst.content-snmp-server:zst-webservice:0.0.1-SNAPSHOT @ C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\pom.xml.
+2018-01-16 08:42:32,561 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zst-webservice/src/main/java
+2018-01-16 08:42:32,569 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zst-webservice/src/main/resources
+2018-01-16 08:42:32,570 [Worker-75] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zst-webservice/src/test/java
+2018-01-16 08:42:34,300 [Worker-75] ERROR o.e.m2e.wtp.WTPProjectConfigurator - Unable to configure zst-webservice
+org.eclipse.m2e.wtp.MarkedException: Unable to configure zst-webservice
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:99) ~[na:na]
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:68) ~[na:na]
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:508) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:501) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:439) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:352) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:349) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77) [org.eclipse.m2e.core.ui_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117) ~[na:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324) ~[na:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240) ~[org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267) ~[org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339) ~[na:na]
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:136) ~[na:na]
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:95) ~[na:na]
+	... 18 common frames omitted
+2018-01-16 08:42:35,813 [Worker-75] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for zst-webservice
+2018-01-16 08:42:35,895 [Worker-75] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2018-01-16 08:42:38,103 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:42:38,331 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:42:38,431 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:42:38,468 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:42:38,481 [Worker-80] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of zst-webservice
+2018-01-16 08:42:38,494 [Worker-80] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for zst-webservice
+2018-01-16 08:42:38,500 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:43:22,804 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.12
+2018-01-16 08:43:22,833 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2018-01-16 08:43:22,861 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.0.1
+2018-01-16 08:43:22,886 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.opentest4j:opentest4j:1.0.0
+2018-01-16 08:43:22,913 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.0.1
+2018-01-16 08:43:22,929 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-engine:5.0.1
+2018-01-16 08:43:22,947 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-engine:1.0.1
+2018-01-16 08:43:22,960 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.7.5
+2018-01-16 08:43:22,980 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.7.0
+2018-01-16 08:43:22,994 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.7.5
+2018-01-16 08:43:23,009 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.jersey:jersey-server:1.19
+2018-01-16 08:43:23,023 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.jersey:jersey-core:1.19
+2018-01-16 08:43:23,047 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.ws.rs:jsr311-api:1.1.1
+2018-01-16 08:43:23,060 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.jersey:jersey-servlet:1.19
+2018-01-16 08:43:23,072 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax:javaee-api:7.0
+2018-01-16 08:43:23,085 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.mail:javax.mail:1.5.0
+2018-01-16 08:43:23,098 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:activation:1.1
+2018-01-16 08:43:23,110 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.snmp4j:snmp4j:2.5.0
+2018-01-16 08:43:23,123 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.14
+2018-01-16 08:43:23,136 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.inject:javax.inject:1
+2018-01-16 08:43:23,558 [Worker-78] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2-sources.jar
+2018-01-16 08:43:23,942 [Worker-78] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2-sources.jar
+2018-01-16 08:43:24,118 [Worker-78] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.gson:gson:2.8.2
+2018-01-16 08:43:24,717 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:43:24,768 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:43:24,769 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:43:24,781 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:43:42,482 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:43:42,574 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:43:42,577 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:43:42,608 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:44:12,039 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:44:12,057 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:44:12,066 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:44:12,084 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:45:17,790 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:45:17,827 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:45:17,842 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:45:17,908 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:48:08,333 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-01-16 08:48:19,229 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:48:19,247 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:48:19,252 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:48:19,262 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:54:10,372 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:54:10,431 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:54:10,434 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:54:10,449 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:55:40,719 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zst.content-snmp-server:zst-webservice:0.0.1-SNAPSHOT @ C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\pom.xml.
+2018-01-16 08:55:41,482 [Worker-12] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
+2018-01-16 08:55:41,574 [Worker-12] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
+2018-01-16 08:55:41,685 [Worker-12] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+2018-01-16 08:55:42,275 [Worker-12] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+2018-01-16 08:55:43,611 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:55:43,633 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:55:43,646 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:55:43,662 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:55:43,664 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of zst-webservice
+2018-01-16 08:55:43,665 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for zst-webservice
+2018-01-16 08:55:43,679 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:55:45,621 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:55:45,655 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:55:45,657 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:55:45,683 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:58:20,972 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:58:20,997 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:58:21,008 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:58:21,026 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:58:38,523 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:58:38,538 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:58:38,540 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:58:38,559 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 08:58:46,054 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:58:46,093 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 08:58:46,129 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 08:58:46,261 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 09:00:22,059 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-01-16 09:00:30,933 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:00:30,961 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 09:00:30,967 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:00:30,980 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 09:01:19,908 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:01:19,965 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 09:01:19,970 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:01:20,032 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 09:04:14,640 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.12
+2018-01-16 09:04:14,657 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2018-01-16 09:04:14,671 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.0.1
+2018-01-16 09:04:14,688 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.opentest4j:opentest4j:1.0.0
+2018-01-16 09:04:14,703 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.0.1
+2018-01-16 09:04:14,717 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-engine:5.0.1
+2018-01-16 09:04:14,731 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-engine:1.0.1
+2018-01-16 09:04:14,768 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.7.5
+2018-01-16 09:04:14,782 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.7.0
+2018-01-16 09:04:14,797 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.7.5
+2018-01-16 09:04:14,811 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.jersey:jersey-server:1.19
+2018-01-16 09:04:14,836 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.jersey:jersey-core:1.19
+2018-01-16 09:04:14,853 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.ws.rs:jsr311-api:1.1.1
+2018-01-16 09:04:14,866 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.jersey:jersey-servlet:1.19
+2018-01-16 09:04:14,880 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax:javaee-api:7.0
+2018-01-16 09:04:14,900 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.mail:javax.mail:1.5.0
+2018-01-16 09:04:14,914 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:activation:1.1
+2018-01-16 09:04:14,935 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.snmp4j:snmp4j:2.5.0
+2018-01-16 09:04:14,954 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.14
+2018-01-16 09:04:14,968 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.inject:javax.inject:1
+2018-01-16 09:04:15,736 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar
+2018-01-16 09:04:16,142 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar
+2018-01-16 09:04:16,338 [Worker-15] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.gson:gson:2.2.4
+2018-01-16 09:04:16,912 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:04:16,941 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 09:04:16,944 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:04:16,977 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 09:07:58,237 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-01-16 09:08:17,731 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:08:17,756 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 09:08:17,763 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:08:17,782 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 09:11:39,394 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:11:39,582 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 09:11:39,586 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:11:39,696 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 09:14:02,949 [Worker-16] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to remove com/zst/content-snmp-server/zst-webservice/0.0.1-SNAPSHOT/zst-webservice-0.0.1-SNAPSHOT.pom
+java.io.FileNotFoundException: C:\Users\73773\Desktop\zst\zstWebService\.metadata\.plugins\org.eclipse.m2e.core\nexus\830bc118332e77292949ed1e6d2fabe0\_u.cfs (Nie mo¿na odnaleŸæ okreœlonego pliku)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_144]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_144]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_144]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.CompoundFileReader.<init>(CompoundFileReader.java:70) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:321) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3363) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3408) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.DefaultIndexerEngine.remove(DefaultIndexerEngine.java:179) ~[org.eclipse.m2e.maven.indexer_1.8.2.20171007-0216/:na]
+	at org.apache.maven.index.DefaultNexusIndexer.deleteArtifactFromIndex(DefaultNexusIndexer.java:350) ~[org.eclipse.m2e.maven.indexer_1.8.2.20171007-0216/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.removeDocument(NexusIndexManager.java:619) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.mavenProjectChanged(NexusIndexManager.java:761) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:02,967 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SNMPClientGetNextTest references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration SNMPClientGetNextTest references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:02,984 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SNMPClientGetNextTest references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration SNMPClientGetNextTest references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:03,009 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SNMPClientGetNextTest references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration SNMPClientGetNextTest references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:03,022 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SNMPReceiverTest references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration SNMPReceiverTest references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:03,036 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SNMPReceiverTest references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration SNMPReceiverTest references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:03,058 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration SNMPReceiverTest references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration SNMPReceiverTest references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:03,078 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration test references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration test references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:03,102 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration test references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration test references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:03,149 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration test references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration test references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:03,182 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration zst-webservice (1) references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration zst-webservice (1) references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:03,218 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration zst-webservice (1) references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration zst-webservice (1) references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:03,256 [Worker-16] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration zst-webservice (1) references closed project zst-webservice
+org.eclipse.core.runtime.CoreException: Launch configuration zst-webservice (1) references closed project zst-webservice
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1702) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1574) ~[org.eclipse.jdt.launching_3.9.51.v20171114-1018.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:28,045 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zst.content-snmp-server:zst-webservice:0.0.1-SNAPSHOT @ C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\pom.xml.
+2018-01-16 09:14:28,085 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zst.content-snmp-server:zst-webservice:0.0.1-SNAPSHOT @ C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\pom.xml.
+2018-01-16 09:14:29,484 [Worker-23] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to add com/zst/content-snmp-server/zst-webservice/0.0.1-SNAPSHOT/zst-webservice-0.0.1-SNAPSHOT.pom
+java.io.FileNotFoundException: C:\Users\73773\Desktop\zst\zstWebService\.metadata\.plugins\org.eclipse.m2e.core\nexus\830bc118332e77292949ed1e6d2fabe0\_u.cfs (Nie mo¿na odnaleŸæ okreœlonego pliku)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_144]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_144]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_144]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.CompoundFileReader.<init>(CompoundFileReader.java:70) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:321) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3363) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3408) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.DefaultIndexerEngine.update(DefaultIndexerEngine.java:84) ~[org.eclipse.m2e.maven.indexer_1.8.2.20171007-0216/:na]
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:338) ~[org.eclipse.m2e.maven.indexer_1.8.2.20171007-0216/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:580) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.mavenProjectChanged(NexusIndexManager.java:766) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:300) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:29,844 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:14:29,873 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 09:14:29,888 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:14:29,918 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 09:14:29,921 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of zst-webservice
+2018-01-16 09:14:29,922 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for zst-webservice
+2018-01-16 09:14:29,930 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:14:31,584 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zst.content-snmp-server:zst-webservice:0.0.1-SNAPSHOT @ C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\pom.xml.
+2018-01-16 09:14:32,286 [Worker-16] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to add com/zst/content-snmp-server/zst-webservice/0.0.1-SNAPSHOT/zst-webservice-0.0.1-SNAPSHOT.pom
+java.io.FileNotFoundException: C:\Users\73773\Desktop\zst\zstWebService\.metadata\.plugins\org.eclipse.m2e.core\nexus\830bc118332e77292949ed1e6d2fabe0\_u.cfs (Nie mo¿na odnaleŸæ okreœlonego pliku)
+	at java.io.RandomAccessFile.open0(Native Method) ~[na:1.8.0_144]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[na:1.8.0_144]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[na:1.8.0_144]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput$Descriptor.<init>(FSDirectory.java:552) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory$FSIndexInput.<init>(FSDirectory.java:582) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.openInput(FSDirectory.java:488) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.CompoundFileReader.<init>(CompoundFileReader.java:70) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.initialize(SegmentReader.java:321) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:306) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.SegmentReader.get(SegmentReader.java:236) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.applyDeletes(DocumentsWriter.java:915) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.applyDeletes(IndexWriter.java:4339) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.doFlush(IndexWriter.java:3579) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.flush(IndexWriter.java:3450) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.prepareCommit(IndexWriter.java:3363) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:3408) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.DefaultIndexerEngine.update(DefaultIndexerEngine.java:84) ~[org.eclipse.m2e.maven.indexer_1.8.2.20171007-0216/:na]
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:338) ~[org.eclipse.m2e.maven.indexer_1.8.2.20171007-0216/:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:580) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.mavenProjectChanged(NexusIndexManager.java:758) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-01-16 09:14:32,817 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:14:32,829 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 09:14:32,832 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:14:32,842 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 09:15:25,706 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-01-16 09:15:35,925 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:15:36,202 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 09:15:36,207 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:15:36,281 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 09:19:15,341 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zst.content-snmp-server:zst-webservice:0.0.1-SNAPSHOT @ C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\pom.xml.
+2018-01-16 09:19:17,019 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.5/gson-2.5.pom
+2018-01-16 09:19:17,204 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.5/gson-2.5.pom
+2018-01-16 09:19:17,311 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+2018-01-16 09:19:17,474 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+2018-01-16 09:19:17,598 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.5/gson-2.5.jar
+2018-01-16 09:19:18,411 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.5/gson-2.5.jar
+2018-01-16 09:19:25,753 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:19:25,772 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 09:19:25,776 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:19:25,794 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 09:19:25,808 [Worker-2] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of zst-webservice
+2018-01-16 09:19:25,810 [Worker-2] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for zst-webservice
+2018-01-16 09:19:25,818 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:19:28,221 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:19:28,618 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 09:19:28,816 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:19:28,899 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 09:37:46,892 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:37:46,967 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 09:37:46,985 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 09:37:47,104 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 10:16:28,880 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 10:16:28,892 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 10:16:28,903 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 10:16:28,919 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 10:19:14,970 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 10:19:14,989 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 10:19:15,000 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 10:19:15,020 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 11:08:38,707 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 11:08:38,723 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 11:08:38,738 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 11:08:38,754 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 11:15:27,084 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 11:15:27,086 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 11:15:27,107 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 11:15:27,123 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources
+2018-01-16 11:18:10,172 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 11:18:10,182 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-16 11:18:10,182 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-16 11:18:10,198 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\73773\Desktop\zst\zstWebService\zst-webservice\src\test\resources

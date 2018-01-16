@@ -5,6 +5,7 @@ import java.net.UnknownHostException;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Vector;
 import java.util.concurrent.BlockingQueue;
 
@@ -26,10 +27,19 @@ import org.snmp4j.util.SimpleOIDTextFormat;
 import org.snmp4j.util.TableEvent;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 @ApplicationScoped
 @Path("/snmp")
 public class SNMPRespondent {
+	public static final String TCP_TABLE_OID=".1.3.6.1.2.1.6.13";
+	public static final String UDP_TABLE_OID=".1.3.6.1.2.1.7.5";
+	public static final String COMMUNITY="default";
+	
+	
 	SNMPClient snmpClient;
 	private @Inject List<PDU> pdus;
 	
@@ -144,18 +154,78 @@ public class SNMPRespondent {
 	
 	
 	@GET
-	@Path("translateOidToName")
-	public String getName(@QueryParam("OID")String oid) {
-		SimpleOIDTextFormat formatter=new SimpleOIDTextFormat();
-		int[] value;
-		try {
-			value = SimpleOIDTextFormat.parseOID(oid);
-			String name=formatter.format(value);
-			return name;
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return "null";
+	@Path("getTCPConnections")
+	public String getTCPConn() {
+			String table=getTable(TCP_TABLE_OID,COMMUNITY);
+			JsonArray jsonArray = (new JsonParser()).parse(table).getAsJsonArray();
+			return convertToTCPJson(jsonArray);
 	}
+	
+	@GET
+	@Path("getUDPListenerTable")
+	public String getUDPListeners() {
+		String table=getTable(UDP_TABLE_OID, COMMUNITY);
+		JsonArray jsonArray=(new JsonParser()).parse(table).getAsJsonArray();
+		return convertToUDPJson(jsonArray);
+	}
+
+	private String convertToTCPJson(JsonArray array) {
+		JsonObject tcpConnState=(JsonObject)array.get(0);
+		JsonObject tcpLocalAddress=(JsonObject)array.get(1);
+		JsonObject tcpConnLocalPort=(JsonObject)array.get(2);
+		JsonObject tcpConnRemAddress=(JsonObject)array.get(3);
+		JsonObject tcpConnRemPort=(JsonObject)array.get(4);
+		
+		List<JsonObject>converted=new ArrayList<JsonObject>();
+		JsonObject object=null;
+		for (Map.Entry<String,JsonElement> entry : tcpConnState.entrySet()) {
+			object=new JsonObject();
+			object.addProperty("Connection State", entry.getValue().toString());
+			converted.add(object);
+		}
+		int counter=0;
+		for (Map.Entry<String,JsonElement> entry : tcpLocalAddress.entrySet()) {
+			object=converted.get(counter++);
+			object.addProperty("Local Address", entry.getValue().toString());
+		}
+		counter=0;
+		for (Map.Entry<String,JsonElement> entry : tcpConnLocalPort.entrySet()) {
+			object=converted.get(counter++);
+			object.addProperty("Local Port", entry.getValue().toString());
+		}
+		counter=0;
+		for (Map.Entry<String,JsonElement> entry : tcpConnRemAddress.entrySet()) {
+			object=converted.get(counter++);
+			object.addProperty("Remote Address", entry.getValue().toString());
+		}
+		counter=0;
+		for (Map.Entry<String,JsonElement> entry : tcpConnRemPort.entrySet()) {
+			object=converted.get(counter++);
+			object.addProperty("Remote Port", entry.getValue().toString());
+		}
+		counter=0;
+		return converted.toString();		
+	}
+	
+	private String convertToUDPJson(JsonArray array) {
+		JsonObject udpLocalAddress=(JsonObject)array.get(0);
+		JsonObject udpLocalPort=(JsonObject)array.get(1);
+		
+		List<JsonObject>converted=new ArrayList<JsonObject>();
+		JsonObject object=null;
+		for (Map.Entry<String,JsonElement> entry : udpLocalAddress.entrySet()) {
+			object=new JsonObject();
+			object.addProperty("UDP Local Address", entry.getValue().toString());
+			converted.add(object);
+		}
+		int counter=0;
+		for (Map.Entry<String,JsonElement> entry : udpLocalPort.entrySet()) {
+			object=converted.get(counter++);
+			object.addProperty("UDP Local Port", entry.getValue().toString());
+		}
+		counter=0;
+		return converted.toString();
+	}
+	
+	
 }
